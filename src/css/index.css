@@ -7,7 +7,7 @@ body{
     margin: 0 auto;
 }
 
-.box{
+.container-form{
     display: flex;
     justify-content: center;
     align-items: center;
