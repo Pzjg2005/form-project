@@ -13,11 +13,11 @@ body {
 
 .box-title {
     filter: drop-shadow(0px 0px 5px rgb(255, 197, 197));
-    
+    text-shadow: 0px 0px 20px rgb(223, 204, 204);
     .title {
         --font: "Open Sans";
         font-family: var(--font);
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
 
@@ -46,12 +46,15 @@ body {
         text-align: unset;
         font-size: 20px;
         filter: drop-shadow(0px 0px 5px rgb(255, 197, 197));
-
+        text-shadow: 0px 0px 2px rgb(230, 230, 230);
         input{
             background: whitesmoke;
             width: 250px;
             height: 30px;
             border-radius: 10px;
+            font-size: 20px;
+            text-align: center;
+            filter: opacity(90%)
         }
     }
 }
@@ -63,8 +66,18 @@ body {
     gap: 25px;
 
     .button{
+        --font: "Open Sans";
+        font-size: 15px;
         width: 100px;
-        height: 40px;
-        border-radius: 15%;
+        height: 50px;
+        border-radius: 20%;
+        filter: drop-shadow(0px 0px 5px rgb(255, 197, 197));
+        font-family: var(--font);
+        border: hidden;
+
+        &:hover{
+            background: rgb(235, 213, 213);
+            box-shadow: 0px 0px 5px 2px rgb(228, 228, 228);
+        }
     }
 }
